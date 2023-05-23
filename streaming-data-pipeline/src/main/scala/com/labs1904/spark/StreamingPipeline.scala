@@ -21,11 +21,11 @@ object StreamingPipeline {
   lazy val logger: Logger = Logger.getLogger(this.getClass)
   val jobName = "StreamingPipeline"
 
-  val hdfsUrl = "hdfs://hbase01.labs1904.com:8020"
-  val bootstrapServers =  "b-3-public.hwekafkacluster.6d7yau.c16.kafka.us-east-1.amazonaws.com:9196,b-2-public.hwekafkacluster.6d7yau.c16.kafka.us-east-1.amazonaws.com:9196,b-1-public.hwekafkacluster.6d7yau.c16.kafka.us-east-1.amazonaws.com:9196"
-  val username = "1904labs"
-  val password = "1904labs"
-  val hdfsUsername = "nkessler"
+  val hdfsUrl = "CHANGE ME"
+  val bootstrapServers =  "CHANGE ME"
+  val username = "CHANGE ME"
+  val password = CHANGE ME"
+  val hdfsUsername = "CHANGE ME"
 
   //Use this for Windows
 //  val trustStore: String = "src\\main\\resources\\kafka.client.truststore.jks"
